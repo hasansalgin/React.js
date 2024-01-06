@@ -1,0 +1,47 @@
+:root {
+    --buton-rengi: #c66755;
+    --tarih: #7d4a69;
+}
+
+
+.tumu {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tumu>header {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tumu>main {
+    display: flex;
+    flex-direction: column;
+}
+
+.tumu>main {
+    flex: 3;
+}
+
+.btn-ara {
+    background-color: var(--buton-rengi);
+    border-color: var(--buton-rengi);
+}
+
+.ortali {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tarih {
+    background-color: var(--tarih);
+    color: white;
+}

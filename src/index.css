@@ -1,0 +1,12 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poiret One', sans-serif;
+    background: url("assets/bg.jpg") no-repeat center;
+    background-size: cover;
+}
